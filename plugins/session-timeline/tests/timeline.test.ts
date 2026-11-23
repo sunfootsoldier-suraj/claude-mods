@@ -109,7 +109,7 @@ test('rows show plain words, with no tags and no bracket markers', async ($, on)
 
 test('a resumed session shows its earlier turns from the transcript', async ($, on) => {
   const transcript = [
-    { role: 'user', text: 'Copy the mods to scalar01', toolUses: [] },
+    { role: 'user', text: 'Copy the mods to the build box', toolUses: [] },
     {
       role: 'assistant',
       text: '',
@@ -126,7 +126,7 @@ test('a resumed session shows its earlier turns from the transcript', async ($, 
   await $.command.run({ command: 'timeline', args: 'deep' } as never)
   for (const surface of SURFACES) {
     const ui = await $.ui.mount({ ...PANE, surface, viewport: { columns: 80, rows: 40 } } as never)
-    expect(await ui.find({ text: /Copy the mods to scalar01/ })).toBeDefined()
+    expect(await ui.find({ text: /Copy the mods to the build box/ })).toBeDefined()
     expect(await ui.find({ text: /Copy the mods$|Copy the mods\b/ })).toBeDefined()
     expect(await ui.find({ text: /And now the next step/ })).toBeDefined()
     expect(await ui.find({ text: /2 turns/ })).toBeDefined()

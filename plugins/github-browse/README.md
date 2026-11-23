@@ -32,7 +32,6 @@ Answer `y` to add the marketplace, then choose a scope (user scope makes it load
 
 In the desktop app, where `/plugin` does not run: click + next to the prompt box, then Plugins, Add marketplace with `sunfootsoldier-suraj/claude-mods`, then Add plugin.
 
-This repository is private: installing it needs read access on GitHub and a git credential for github.com on that machine (an SSH key, or `gh auth login` then `gh auth setup-git`). The install never prompts for one.
 
 ## Development
 

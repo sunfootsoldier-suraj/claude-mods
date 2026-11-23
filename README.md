@@ -32,7 +32,7 @@ claude plugin install image-pane --marketplace sunfootsoldier-suraj/claude-mods
 
 In the desktop app, where `/plugin` does not run: click + next to the prompt box, then Plugins, Add marketplace with `sunfootsoldier-suraj/claude-mods`, then Add plugin.
 
-This repository is private. To install a mod, you need read access on GitHub and a git credential for github.com on your machine (an SSH key, or `gh auth login` then `gh auth setup-git`). The install never prompts for one.
+The repository is public. No GitHub login is needed to install a mod.
 
 ## image-pane
 
