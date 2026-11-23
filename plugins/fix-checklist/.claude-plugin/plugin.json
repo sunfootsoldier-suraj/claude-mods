@@ -1,0 +1,10 @@
+{
+  "name": "fix-checklist",
+  "version": "0.1.0",
+  "description": "A checklist pane of fixes to make: you add items, Claude works through them in one go and ticks each one",
+  "author": {
+    "name": "Suraj Pai"
+  },
+  "types": "./types/index.d.ts",
+  "license": "MIT"
+}

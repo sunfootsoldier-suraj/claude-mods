@@ -1,0 +1,6 @@
+{
+  "name": "github-browse",
+  "version": "0.1.0",
+  "description": "A GitHub browser pane beside the chat that Claude steers to files and line ranges while it explains code",
+  "types": "./types/index.d.ts"
+}

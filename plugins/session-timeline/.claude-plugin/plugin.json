@@ -1,0 +1,9 @@
+{
+  "name": "session-timeline",
+  "version": "0.10.0",
+  "description": "A timeline pane of the session with few-word turn summaries, subagent lanes, turn portraits and an animated pixel yard",
+  "author": {
+    "name": "Suraj Pai"
+  },
+  "types": "./types/index.d.ts"
+}

@@ -1,0 +1,1 @@
+{ "name": "image-pane", "version": "0.1.0", "description": "Show PNG images in a side pane. Claude sends images with the show_image tool.", "types": "./types/index.d.ts" }

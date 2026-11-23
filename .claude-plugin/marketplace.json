@@ -1,0 +1,10 @@
+{
+  "name": "claude-mods",
+  "owner": { "name": "Suraj Pai" },
+  "plugins": [
+    { "name": "image-pane", "source": "./plugins/image-pane", "description": "Show PNG images in a side pane beside the chat. Claude sends images with the show_image tool." },
+    { "name": "fix-checklist", "source": "./plugins/fix-checklist", "description": "A checklist pane of fixes to make. Claude works through them in one go and ticks each one." },
+    { "name": "github-browse", "source": "./plugins/github-browse", "description": "A GitHub-style code browser pane that Claude drives as a numbered trace." },
+    { "name": "session-timeline", "source": "./plugins/session-timeline", "description": "A timeline pane of turns, tool calls and subagents, with a status band and pixel pets." }
+  ]
+}
